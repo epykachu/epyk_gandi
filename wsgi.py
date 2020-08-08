@@ -1,4 +1,2 @@
-from epyk_server.app import app, init_app
-
-init_app()
-application = app
+from epyk_server.app import  init_app
+application = init_app()
