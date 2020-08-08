@@ -1,5 +1,5 @@
 click==7.1.2
-epyk==1.1.9
+epyk==1.1.10
 Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
