@@ -1,6 +1,8 @@
+import random
 from flask import Blueprint, render_template_string
 from epyk.core.Page import Report
-
+from materials import blablacar_data
+from misc import data_urls
 
 welcome = Blueprint('welcome', __name__)
 
@@ -155,6 +157,4 @@ def welcome_route():
     ])
 
 
-
-
-return render_template_string(page.outs.html()), 200
+    return render_template_string(page.outs.html()), 200
